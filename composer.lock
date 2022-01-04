@@ -8,24 +8,23 @@
     "packages": [
         {
             "name": "aeon-php/calendar",
-            "version": "0.4.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aeon-php/calendar.git",
-                "reference": "c082ccd33577bb8a67b6c2218d888fc4907785a4"
+                "reference": "6a0cf060d1d2e687b8f97fb02f7478965b841896"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/c082ccd33577bb8a67b6c2218d888fc4907785a4",
-                "reference": "c082ccd33577bb8a67b6c2218d888fc4907785a4",
+                "url": "https://api.github.com/repos/aeon-php/calendar/zipball/6a0cf060d1d2e687b8f97fb02f7478965b841896",
+                "reference": "6a0cf060d1d2e687b8f97fb02f7478965b841896",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.4.2"
+                "php": "^7.4.2 || ^8.0 || ^8.1"
             },
             "require-dev": {
-                "ext-bcmath": "*",
-                "phpunit/phpunit": "^9.3"
+                "ext-bcmath": "*"
             },
             "suggest": {
                 "ext-bcmath": "Compare time units with high precision"
@@ -52,15 +51,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aeon-php/calendar/issues",
-                "source": "https://github.com/aeon-php/calendar/tree/0.4.0"
+                "source": "https://github.com/aeon-php/calendar/tree/1.0.3"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/norberttech",
-                    "type": "github"
-                }
-            ],
-            "time": "2020-08-15T18:07:07+00:00"
+            "time": "2022-01-03T12:11:17+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -2414,5 +2407,5 @@
         "php": ">=7.4.2"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }
